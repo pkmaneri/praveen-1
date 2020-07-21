@@ -1,50 +1,55 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<style>
+    <head>
+        
+        <link rel="stylesheet" href="pc/pc.css">
 
-	</style>
+        <style>
+            .container{
+                color: red;
+                font-size: medium;
+                border: medium;
+                font-weight: 100;
+                
+            }
+            .inputStyle{
+                color: #000;
+                background-origin: padding-box;
+                font-size: medium;
+                font-weight: 100;
 
-</head>
-<body>
-
-	<div name="form">
-		<table border="1px" cellpadding="0" cellspacing="0" width="100%">
-			<tr>
-				<td style="text-align: center;width: 49%; background: red">Name</td>
-				<td style="text-align: center;width: 49%; background: red"><input  type="text" id="name"></td>
-			</tr>
-			<tr>
-				<td style="text-align: center;width: 49%; background: green"> Age </td>
-				<td style="text-align: center;width: 49%; background: green"><input  type="text" id="age"></td>		
-			</tr>
-			<tr >
-				<td ><button id="updateButton" onclick="update()">update</button></td>
-				<td ><button onclick="add()">Add</button></td>
-			</tr>
-			<tr>
-				<td id ></td>
-			</tr>
-		</table>
-
-	</div>
-	<br>
-	<div name="container">
-		<table id="dataTable" border="1px" cellpadding="0" cellspacing="0" width="100%">
-			<thead>
-				<tr>
-					<td style="text-align: center;width: 33%; color: red">Name</td>
-					<td style="text-align: center;width: 33%;color: blue">Age</td>
-					<td style="text-align: center;width: 33%;">Action</td>
-				</tr>
-			</thead>
-			<tbody></tbody>
-		</table>
-	</div>
-
-
-	
-<script type="text/javascript" src="cjson.js"></script>
-
-</body>
-</html> 
+            }
+        </style>
+    </head>
+    <body>
+            <div class ="container">
+                <div style="width: 100%; margin: 5px;">
+                    <table>
+                        <tr>
+                            <td>
+                                <input placeholder="airtel" id="Airtel" type="text" class="inputStyle">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="width: 100%; margin: 5px;">
+                    <table>
+                        <tr>
+                            <td>
+                                <input placeholder="voda" id="Voda" type="text" class="inputStyle">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                    <div style="width: 100%; margin: 5px;">
+                        <table>
+                            <tr>
+                                <td>
+                                    <button onclick="add()" id="AddButton"></button>
+                                </td>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+    </body>
+        <script src="pc/pc.js"></script>
+</html>
