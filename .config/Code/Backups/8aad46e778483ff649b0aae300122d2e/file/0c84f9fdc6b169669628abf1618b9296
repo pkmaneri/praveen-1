@@ -1,0 +1,125 @@
+file:///home/praveen/Desktop/Application/server/public/employee.html {"mtime":1595009714505,"ctime":1594833911954,"size":4645,"etag":"35de1li7r4pq","orphaned":false}
+<html>
+    <head>
+        <link rel="stylesheet" href="public/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+        crossorigin="anonymous">
+        <style>
+            .inputStyle{
+                width: 100%;
+                border-color: #bdc7d8;
+                border-radius: 5px;
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+            .containerStyle {
+                width: 49%;
+                float: left;
+                background: #ebedf0;
+                padding: 24px;
+            }
+        </style>
+     </head>
+    <body>
+        <div>
+            <div class="containerStyle">
+                <div style="margin: 5px;">
+                    <table style="width:100%" >
+                        <tr>
+                            <td>
+                                <input placeholder="Employee Id" type="text"  class="inputStyle" id="employeeId">
+                            </td>                          
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin: 5px;">
+                    <table style="width:100%;">
+                        <tr>
+                            <td>
+                                <input placeholder="Employee Name" type="text"  class="inputStyle" id="employeeName">
+                            </td>
+                        </tr>
+                    </table>
+                </div>  
+               
+                <div style="margin: 5px;">
+                    <table style="width:100%;">
+                        <tr>
+                            <td>
+                                <input placeholder="Employee Mobile" type="text"  class="inputStyle" id="employeeMobile">
+
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin: 5px;">
+                    <table style="width:100%;">
+                        <tr>
+                            
+                            <td>
+                                <input placeholder="Employee Email" type="text"  class="inputStyle" id="employeeEmail">
+
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin: 5px;">
+                    <table style="width:100%">
+                        <tr>
+                            <td>
+                                <input placeholder="Employee Skill" type="text"  class="inputStyle" id="employeeSkill">
+                            </td>
+                            
+                        </tr>
+                    </table>
+                    	               
+                </div>   
+                <div>
+                    <table>
+                        <tr>                      
+                            <td >
+                                <button type="button" class="btn btn-primary" onclick="addEmployee()" id="addEmployeeBUtton">Add 
+                                    Employee</button>
+                            </td>
+                            <td >
+                                <button type="button" class="btn btn-primary" onclick="update(this)" id="updateButton"> 
+                                    update</button>
+                                    
+                            </td>
+                       </tr>
+                    </table>
+                </div>          
+            </div>
+            <div style="width:49%; float: left;border: 1px">
+                <table class="table table-bordered" id="dataTable">
+
+                    <thead>
+                        <tr>
+                            <th>
+                                Employee Id 
+                            </th>  
+                                                    
+                            <th>
+                                Employee Name 
+                            </th>
+                            <th>
+                                Employee Age
+                            </th>
+                            <th>
+                                Employee Mobile
+                            </th>
+                            <th>
+                                Employee Skill
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>                
+            </div> 
+        </div>
+        <script src="public/employee.js">
+        </script>   
+    </body>
+</html>

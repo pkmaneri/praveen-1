@@ -1,0 +1,6 @@
+2020/08/10-15:20:10.143 6734 Reusing MANIFEST /home/praveen/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/08/10-15:20:10.260 6734 Recovering log #96
+2020/08/10-15:20:10.343 6734 Reusing old log /home/praveen/.config/google-chrome/Default/Sync Data/LevelDB/000096.log 
+2020/08/10-15:20:22.333 6840 Level-0 table #100: started
+2020/08/10-15:20:22.582 6840 Level-0 table #100: 82920 bytes OK
+2020/08/10-15:20:22.828 6840 Delete type=0 #96

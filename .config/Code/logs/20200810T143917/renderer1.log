@@ -1,0 +1,31 @@
+[2020-08-10 14:59:23.798] [renderer1] [error] TreeError [MarkersView] Tree element not found: [object Object]: Error: TreeError [MarkersView] Tree element not found: [object Object]
+    at t.ObjectTreeModel.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:114:613)
+    at t.ObjectTreeModel.setCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:113:855)
+    at H.expand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:277)
+    at K.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7069:818)
+    at K.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7066:842)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7065:715
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:92:235
+    at c.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:95:801)
+    at F.doHandleActiveEditorChangeEvent (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6057:491)
+    at F.handleActiveEditorChange (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6057:289)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6057:601
+    at c.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:95:801)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6290:665
+    at async e.openEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6289:121)
+[2020-08-10 14:59:31.170] [renderer1] [error] TreeError [MarkersView] Tree element not found: [object Object]: Error: TreeError [MarkersView] Tree element not found: [object Object]
+    at t.ObjectTreeModel.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:114:613)
+    at t.ObjectTreeModel.setCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:113:855)
+    at H.expand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:277)
+    at K.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7069:818)
+    at K.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7066:842)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7065:715
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:92:235
+    at c.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:95:801)
+    at F.doHandleActiveEditorChangeEvent (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6057:491)
+    at F.handleActiveEditorChange (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6057:289)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6057:601
+    at c.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:95:801)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6290:665
+    at async e.openEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6289:121)
+[2020-08-10 15:03:58.301] [renderer1] [error] Failed to execute git

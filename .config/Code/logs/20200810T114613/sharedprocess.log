@@ -1,0 +1,8 @@
+[2020-08-10 11:46:16.871] [sharedprocess] [info] main {"machineId":"06d3d913eeb59ebd900614c633964927b50799f40d6f9ffc55ded5ba4708ac6d","windowId":2}
+[2020-08-10 11:46:56.892] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-08-10 12:28:42.841] [sharedprocess] [info] Installing extension: wmorellato.babel
+[2020-08-10 12:28:48.542] [sharedprocess] [info] Downloaded extension: wmorellato.babel /home/praveen/.config/Code/CachedExtensionVSIXs/wmorellato.babel-1.3.0
+[2020-08-10 12:28:48.699] [sharedprocess] [info] Extracted extension to /home/praveen/.vscode/extensions/.wmorellato.babel-1.3.0: wmorellato.babel
+[2020-08-10 12:28:48.700] [sharedprocess] [info] Renamed to /home/praveen/.vscode/extensions/wmorellato.babel-1.3.0
+[2020-08-10 12:28:48.701] [sharedprocess] [info] Installation completed. wmorellato.babel
+[2020-08-10 12:28:48.730] [sharedprocess] [info] Extensions installed successfully: wmorellato.babel

@@ -1,0 +1,55 @@
+{
+   "checksum": "7da2dac1fd544a2ffbfb0ae4c7c270f7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13227882865523628",
+            "guid": "0df13f48-1bf8-4d5c-a2c9-a62e7ac5759a",
+            "id": "5",
+            "name": "JavaScript Full Course | JavaScript Tutorial For Beginners | JavaScript Training | Edureka - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=o1IaduQICO0"
+         }, {
+            "date_added": "13238609277585712",
+            "guid": "908efab4-f2f4-4cee-8dbe-fe9dcfdb2d2c",
+            "id": "6",
+            "name": "Overview · Bootstrap v4.5",
+            "type": "url",
+            "url": "https://getbootstrap.com/docs/4.5/layout/overview/"
+         }, {
+            "date_added": "13239299848358504",
+            "guid": "c886c391-3072-4ad0-a21c-27cad97447c1",
+            "id": "8",
+            "name": "www.google.com",
+            "type": "url",
+            "url": "https://www.google.com/search?q=facebook&oq=face&aqs=chrome.0.69i59j69i57j69i60l3.2407j0j7&sourceid=chrome&ie=UTF-8"
+         } ],
+         "date_added": "13239016660661546",
+         "date_modified": "13239299848358504",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13239016660661553",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13239016660661554",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CsABCp8BCIiBAhKIARJ2CAISOAoGCgJibRABEDMaEgkAz8SwgawFACEAz8SwgawFADIYChYIAhHFaqfAgawFABgAIQAAAAAAAAAAEjgKBgoCYmQQABAzGhIJAM/EsIGsBQAhAM/EsIGsBQAyGAoWCAIRxWqnwIGsBQAYACEAAAAAAAAAACAASKyu9Lu9LnDzpMmNti4qDhAAGAEgACgAMAA4AEAAEgAgASoYL0RBaTJMME1MUDVhdDZwb3NBSFZKQT09Er4BCAMSuQEKHHk1V0UyN3VJNnZYL0RlSVNISnpuak1xdVdXcz0SZlo6QURxdEFad0t2WVcyN2RUNldIRWRnZFIrTW9WSHBVQ1lYZkw4SEk4N3V6UmZJanVKcy85WWtBUEJrWS9jSU1kc3lJbllNRDB0SDBhQXQrM3p6YnlpYkxGTWJ1TFEwUFV4RWc9PRgAIAAoADCXnIvSqsfqAjgAQABKHDc5bCtMUkVVcGlhRXZERCtHNDNjcFhTdHdCYz1aABKmAQgBEqEBChwvRUtMYVVVeU1kYktFazFCYTJVaW55RG5mN0k9Ek5aOkFEcXRBWngyeXRRNUhBaWwwWGJtbWdVRXhnV1hvb29QRCtveS9rSEIyY0xNRG1nQW1xZUNOZlIyK2h0RGErWC9qWE54SktYcVNYKzAYACAAKAAwl5yL0qrH6gI4AEAAShxVK0dHSXRaRURwWnNJU2xPVWFJVHVJTGRNbkk9WgASpwIICBKiAgocang3b3AzdU5yWVpPcHRrd2JubVVXMDIya0RVPRKmAVo6QURxdEFaeGErYjRNK2g0WTlXTGl6emtwcjFCeDlRd1k3WXllQm5tVzVMQ0V3QzgyVC84WUp6U0M2RTBRamNmWXdURGVHem01NzNCVGNSV29PRFhWOGxObTl0VGFnZFRBZVI5VXdPN2JOQzk4QjhhRERiaU5hNGFLWmR0Y3RlZWJ5R2NXZ1pFZTNOTUlYekR2dDFvR3RZelBNdThqeFMyZndBPT0YACACKAIwxJf1neDW6gI4qKG1mLUuQLHUro62LkocN2Vock5LZ1hyOFhlcjVaNWswZHlwODd2dTdrPVoeIhxZMWNobXpubzNxQ01Pc2RteXB4NnN5THRVaUU9EqcCCAUSogIKHEhTeU16OXdpN3pqazBZRkMyUW5EVmZUZHBmRT0SpgFaOkFEcXRBWnhhK2I0TStoNFk5V0xpenprcHIxQnhUU04xZG9YWHpuL0JlaElJVVR2QzNtQmtIcFZteUFRUXNjSWdVYzlzanA5bEpTb21zdEMvd0RkNlB6TUl5a0doYUhIZmlwaEpuME9zV0ZaaHNQZUdrUHV1NkQ3VmpNOTlxSVVUcW9adUkveW84N25CS2g5cC9DQSt3dHFqbWdKZWN5NGE4UT09GAAgAygDMNebj5GlkOsCOOGZsdSKLkDAm4m9vS5KHHFyNTlNNnUveWhEb1pQZkNodjcwd3MzQVFVTT1aHiIcOFBjMjFVTmptbjNwdmpZdGlGZHJ1Yy9hNFBjPRKnAggGEqICChwyRExwNHRCZXZvNVhJNHhHcDlKQUxGSnJ0OU09EqYBWjpBRHF0QVp4YStiNE0raDRZOVdMaXp6a3ByMUJ4VFNOMWRvWFh6bi9CZWhJSVVUdkMzczdrb3MrUk91MUttZGR0ZHR1ZFE0bnJTb0dBK2xlaEZqalVmUjdxd3Zra1FQamNZY01tUU1PdngzckVGQXpIWW1QOXIwM2tNWkwxTDI2dFVMdFF6TE93bUVoUGR4aDVRSXJXbXJ6bjFCeG5zL1IyT2c9PRgAIAIoAjCH67DTqsfqAjiTlZDPsi5AnsbfkbQuShxkSFczOXJuR0J0dTZzd0pVRVpLMTdLdExQdms9Wh4iHDl4dGpCRWJQbTJMenZuRGtmRENFRUFJNzZvST0SvgEIAhK5AQocekRWR3JydFpMZE0rNEJUeWJnK0hDT3JXZ3lvPRJmWjpBRHF0QVp5WThOUmZqLytBUHk1d0FVcGIvb01uQnBYeWg5R3VKVGRpeG9NYzR4d2RWeERPcWpCRjJKendpaEg0VE1nUXpjWGhyNEhuQ3Fmb1FxOERFbTZuemNNaHRCVE1tdz09GAAgACgAMJeci9Kqx+oCOABAAEocNXVzeS9jcGZwaTFFdG9CSERnWElzMHFiNHJBPVoAGAA=",
+   "version": 1
+}

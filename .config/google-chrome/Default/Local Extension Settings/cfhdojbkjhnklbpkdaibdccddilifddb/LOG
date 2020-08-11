@@ -1,0 +1,17 @@
+2020/08/10-15:20:12.617 6734 Reusing MANIFEST /home/praveen/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2020/08/10-15:20:12.617 6734 Recovering log #1039
+2020/08/10-15:20:12.617 6734 Reusing old log /home/praveen/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/001039.log 
+2020/08/10-15:21:16.570 6840 Level-0 table #1043: started
+2020/08/10-15:21:16.760 6840 Level-0 table #1043: 5322022 bytes OK
+2020/08/10-15:21:16.795 6840 Delete type=0 #1039
+2020/08/10-15:21:16.797 6840 Compacting 4@0 + 2@1 files
+2020/08/10-15:21:17.038 6840 Generated table #1044@0: 1 keys, 5321911 bytes
+2020/08/10-15:21:17.072 6840 Generated table #1045@0: 4 keys, 480 bytes
+2020/08/10-15:21:17.072 6840 Compacted 4@0 + 2@1 files => 5322391 bytes
+2020/08/10-15:21:17.115 6840 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/08/10-15:21:17.115 6840 Delete type=2 #1043
+2020/08/10-15:21:17.115 6840 Delete type=2 #1034
+2020/08/10-15:21:17.115 6840 Delete type=2 #1038
+2020/08/10-15:21:17.115 6840 Delete type=2 #1033
+2020/08/10-15:21:17.115 6840 Delete type=2 #1040
+2020/08/10-15:21:17.115 6840 Delete type=2 #1036

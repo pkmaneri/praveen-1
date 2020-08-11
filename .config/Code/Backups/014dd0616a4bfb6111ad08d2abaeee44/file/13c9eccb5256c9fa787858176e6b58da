@@ -1,0 +1,121 @@
+file:///home/praveen/pc/pc.js {"mtime":1595326528938,"ctime":1595236783487,"size":4078,"etag":"35e0ejjog47h","orphaned":false}
+function add(){
+    var airtel = document.getElementById('airtel').value;
+    var voda = document.getElementById('voda').value;
+    var employeeObj={
+        "airtel":airtel,
+        "voda":voda,
+    }
+    var xmlHttp =new XMLHttpRequest()
+    xmlHttp.open('post', '/add', true);  
+    xmlHttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    var dataStr = JSON.stringify({
+        "postdata":addObj
+    });
+    xmlHttp.send(dataStr)
+    xmlHttp.onreadystatechange = function(){ 
+        if (this.readyState == 4){
+            getAdds()
+        }
+   }
+} 
+function getAdds(){
+    var xmlHttp =new XMLHttpRequest()
+    xmlHttp.open('get', '/adds', true);  
+    xmlHttp.send();
+    xmlHttp.onreadystatechange = function(){ 
+        if (this.readyState == 4){
+            var datajsonArr =JSON.parse(this.responseText);
+            tableRender(datajsonArr);
+
+        }
+   }
+
+}
+
+function deleteAdd(id){
+    var xmlHttp =new XMLHttpRequest()
+    xmlHttp.open('delete', '/add/' + id, true);  
+    xmlHttp.send();
+    xmlHttp.onreadystatechange = function(){ 
+        if (this.readyState == 4){
+            getAdds();
+        }
+   }
+
+
+}
+function tableRender(datajsonArr) {
+    var tableRef = document.getElementById('dataTable');
+    var tableTbodyRef = tableRef.getElementsByTagName('tbody')[0];
+    var newTableTbodyRef = document.createElement('tbody');
+    tableRef.replaceChild(newTableTbodyRef, tableTbodyRef);
+    tableTbodyRef =tableRef.getElementsByTagName('tbody')[0];
+   for (var i = 0; i < datajsonArr.length; i++) {
+           var rowRef = tableTbodyRef.insertRow();
+           var cellRef1 = rowRef.insertCell(0);
+           var cellRef2 = rowRef.insertCell(1);
+           var cellRef3 = rowRef.insertCell(2);
+          
+console.log(datajsonArr[i])
+
+           var airtel = datajsonArr[i].postdata.airtel;
+           var voda = datajsonArr[i].postdata.voda;
+           
+           cellRef1.appendChild(document.createTextNode(airtel));
+           cellRef2.appendChild(document.createTextNode(voda));
+         
+           var processDelete = function(){
+               var mongo_id =  this.getAttribute('mongo_id');
+               deleteAdd(mongo_id);
+           }
+            var processupdate = function () {
+                var mongo_id =this.getAttribute('mongo_id');
+                var obj = datajsonArr[mongo_id].postdata;
+                document.getElementById('addEmployeeButton').style.display = "none";
+				document.getElementById('updateButton').style.display = "inline";
+				
+               document.getElementById('airtel').value = obj.airtel;
+               document.getElementById('voda').value = obj.voda;
+              
+               document.getElementById('updateButton').setAttribute("mongo_id",datajsonArr[mongo_id]._id);
+            }
+             var deleteButton = document.createElement('Button');
+             deleteButton.innerHTML ="delete";
+             deleteButton.setAttribute("mongo_id",datajsonArr[i]._id);		 	
+             deleteButton.addEventListener('click',processDelete);
+             cellRef3.appendChild(deleteButton);
+
+             var updateButton = document.createElement("button");
+            updateButton.innerHTML = "update";
+            updateButton.setAttribute("mongo_id",i);
+            updateButton.addEventListener('click', processupdate );			
+            cellRef.appendChild(updateButton);		 
+        
+    }
+}
+function update(ctx){
+    var mongo_id =  ctx.getAttribute('mongo_id');
+
+    var airtel = document.getElementById('airtel').value;
+    var voda = document.getElementById('voda').value;
+   
+    var addObj={
+        "airtel":airtel,
+        "voda":voda,
+	}
+    var xmlHttp =new XMLHttpRequest()
+    xmlHttp.open('patch', '/add/' + mongo_id, true);  
+    xmlHttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    var dataStr = JSON.stringify({
+        "postdata":addObj
+    });
+    xmlHttp.send(dataStr)
+    xmlHttp.onreadystatechange = function(){ 
+        if (this.readyState == 4){
+            getAdds()
+        }
+   }
+    
+}
+getAdds()

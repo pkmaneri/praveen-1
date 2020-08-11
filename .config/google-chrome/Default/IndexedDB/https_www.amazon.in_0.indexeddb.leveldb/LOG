@@ -1,0 +1,5 @@
+2020/07/12-13:25:50.263 61e9 Reusing MANIFEST /home/praveen/.config/google-chrome/Default/IndexedDB/https_www.amazon.in_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/12-13:26:00.339 6240 Level-0 table #5: started
+2020/07/12-13:26:00.378 6240 Level-0 table #5: 1287 bytes OK
+2020/07/12-13:26:00.433 6240 Delete type=0 #3
+2020/07/12-13:26:00.433 6240 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

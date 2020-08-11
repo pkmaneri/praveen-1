@@ -1,0 +1,15 @@
+2020/08/10-13:59:23.238 5586 Reusing MANIFEST /home/praveen/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/08/10-13:59:23.238 5586 Recovering log #139
+2020/08/10-13:59:23.416 5586 Reusing old log /home/praveen/.config/google-chrome/Default/Local Storage/leveldb/000139.log 
+2020/08/10-14:01:11.811 5733 Level-0 table #143: started
+2020/08/10-14:01:11.901 5733 Level-0 table #143: 15004 bytes OK
+2020/08/10-14:01:11.958 5733 Delete type=0 #139
+2020/08/10-14:01:11.958 5733 Compacting 4@0 + 1@1 files
+2020/08/10-14:01:12.048 5733 Generated table #144@0: 554 keys, 864165 bytes
+2020/08/10-14:01:12.048 5733 Compacted 4@0 + 1@1 files => 864165 bytes
+2020/08/10-14:01:12.082 5733 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/10-14:01:12.083 5733 Delete type=2 #137
+2020/08/10-14:01:12.083 5733 Delete type=2 #134
+2020/08/10-14:01:12.083 5733 Delete type=2 #143
+2020/08/10-14:01:12.083 5733 Delete type=2 #140
+2020/08/10-14:01:12.083 5733 Delete type=2 #131

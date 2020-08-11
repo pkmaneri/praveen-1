@@ -1,0 +1,14 @@
+file:///home/praveen/variable-number/vari.js {"mtime":1596340365132,"ctime":1596178443687,"size":852,"etag":"35fkr32g9rf","orphaned":false}
+function primeWrapper(n) {
+    var i;
+    var num;
+    for (i = 2; i < n; i++) {
+        if (n % i === 0) {
+            document.write("this" + n + "is not a primenumber");
+            return false
+            document.write("this" + n + "is  a primenumber");
+            return true
+
+        }
+    }
+}

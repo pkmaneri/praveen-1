@@ -1,0 +1,8 @@
+file:///home/praveen/.local/share/Trash/files/variable/variable.js {"mtime":1596120356926,"ctime":1596117543362,"size":597,"etag":"35fa618ddj8","orphaned":false}
+function mathWrapper(operation) {
+    var firstnumber = document.getElementById('firstnumber').value;
+    var secondnumber = document.getElementById('secondnumber').value;
+    firstnumber = parseInt('firstnumber')
+    secondnumber = parseInt('secondnumber')
+
+}

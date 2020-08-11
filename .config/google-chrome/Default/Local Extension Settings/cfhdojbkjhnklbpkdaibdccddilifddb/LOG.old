@@ -1,0 +1,28 @@
+2020/08/10-13:59:24.632 55a7 Reusing MANIFEST /home/praveen/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2020/08/10-13:59:24.632 55a7 Recovering log #1026
+2020/08/10-13:59:24.686 55a7 Level-0 table #1029: started
+2020/08/10-13:59:24.958 55a7 Level-0 table #1029: 5322251 bytes OK
+2020/08/10-13:59:25.031 55a7 Delete type=0 #1026
+2020/08/10-14:00:28.211 56e2 Level-0 table #1032: started
+2020/08/10-14:00:28.390 56e2 Level-0 table #1032: 5321892 bytes OK
+2020/08/10-14:00:28.426 56e2 Delete type=0 #1030
+2020/08/10-14:00:28.429 56e2 Compacting 4@0 + 2@1 files
+2020/08/10-14:00:28.701 56e2 Generated table #1033@0: 1 keys, 5321892 bytes
+2020/08/10-14:00:28.738 56e2 Generated table #1034@0: 4 keys, 478 bytes
+2020/08/10-14:00:28.738 56e2 Compacted 4@0 + 2@1 files => 5322370 bytes
+2020/08/10-14:00:28.768 56e2 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/08/10-14:00:28.769 56e2 Delete type=2 #1025
+2020/08/10-14:00:28.769 56e2 Delete type=2 #1023
+2020/08/10-14:00:28.769 56e2 Delete type=2 #1022
+2020/08/10-14:00:28.769 56e2 Delete type=2 #1032
+2020/08/10-14:00:28.769 56e2 Delete type=2 #1027
+2020/08/10-14:00:28.769 56e2 Delete type=2 #1029
+2020/08/10-14:01:03.650 56e2 Level-0 table #1036: started
+2020/08/10-14:01:03.902 56e2 Level-0 table #1036: 5322139 bytes OK
+2020/08/10-14:01:03.969 56e2 Delete type=0 #1031
+2020/08/10-15:00:28.461 56e2 Level-0 table #1038: started
+2020/08/10-15:00:28.684 56e2 Level-0 table #1038: 5322850 bytes OK
+2020/08/10-15:00:28.719 56e2 Delete type=0 #1035
+2020/08/10-15:12:17.117 56e2 Level-0 table #1040: started
+2020/08/10-15:12:17.323 56e2 Level-0 table #1040: 5322267 bytes OK
+2020/08/10-15:12:17.363 56e2 Delete type=0 #1037

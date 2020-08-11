@@ -1,0 +1,15 @@
+2020/07/25-22:31:10.238 ba51 Reusing MANIFEST /home/praveen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/25-22:31:10.238 ba51 Recovering log #15
+2020/07/25-22:31:10.238 ba51 Reusing old log /home/praveen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000015.log 
+2020/07/25-22:32:40.308 baf9 Level-0 table #20: started
+2020/07/25-22:32:40.364 baf9 Level-0 table #20: 4448 bytes OK
+2020/07/25-22:32:40.393 baf9 Delete type=0 #15
+2020/07/25-22:32:40.394 baf9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/25-22:32:40.394 baf9 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 805 : 1
+2020/07/25-22:32:40.394 baf9 Compacting 1@1 + 1@2 files
+2020/07/25-22:32:40.421 baf9 Generated table #21@1: 45 keys, 1811 bytes
+2020/07/25-22:32:40.421 baf9 Compacted 1@1 + 1@2 files => 1811 bytes
+2020/07/25-22:32:40.459 baf9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/25-22:32:40.460 baf9 Delete type=2 #17
+2020/07/25-22:32:40.460 baf9 Delete type=2 #20
+2020/07/25-22:32:40.460 baf9 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 805 : 1 .. (end); will stop at (end)

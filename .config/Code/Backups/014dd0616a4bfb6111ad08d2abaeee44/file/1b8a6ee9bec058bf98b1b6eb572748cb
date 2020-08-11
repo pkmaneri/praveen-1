@@ -1,0 +1,55 @@
+file:///home/praveen/pc/pc.html {"mtime":1595322952067,"ctime":1595236771158,"size":1723,"etag":"35e09i0l51oi","orphaned":false}
+<html>
+    <head>      
+        <link rel="stylesheet" href="pc/pc.css">
+        <style>
+            .container{
+                color: red;
+                font-size: medium;
+                border: medium;
+                font-weight: 100;
+                
+            }
+            .inputStyle{
+                color: #000;
+                background-origin: padding-box;
+                font-size: medium;
+                font-weight: 100;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class ="container">
+            <div style="width: 100%; margin: 5px;">
+                <table>
+                    <tr>
+                        <td>
+                            <input placeholder="airtel" id="Airtel" type="text" class="inputStyle">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="width: 100%; margin: 5px;">
+                <table>
+                    <tr>
+                        <td>
+                            <input placeholder="voda" id="Voda" type="text" class="inputStyle">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+                <div style="width: 100%; margin: 5px;">
+                    <table>
+                        <tr>
+                            <td>
+                                <button onclick="add()" id="AddButton"></button>
+                                <button onclick="update()" id="UpdateButton"></button>
+                            </td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+    </body>
+        <script src="pc/pc.js"></script>
+</html>

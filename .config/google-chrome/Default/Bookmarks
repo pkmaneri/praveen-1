@@ -1,0 +1,55 @@
+{
+   "checksum": "7da2dac1fd544a2ffbfb0ae4c7c270f7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13227882865523628",
+            "guid": "0df13f48-1bf8-4d5c-a2c9-a62e7ac5759a",
+            "id": "5",
+            "name": "JavaScript Full Course | JavaScript Tutorial For Beginners | JavaScript Training | Edureka - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=o1IaduQICO0"
+         }, {
+            "date_added": "13238609277585712",
+            "guid": "908efab4-f2f4-4cee-8dbe-fe9dcfdb2d2c",
+            "id": "6",
+            "name": "Overview · Bootstrap v4.5",
+            "type": "url",
+            "url": "https://getbootstrap.com/docs/4.5/layout/overview/"
+         }, {
+            "date_added": "13239299848358504",
+            "guid": "c886c391-3072-4ad0-a21c-27cad97447c1",
+            "id": "8",
+            "name": "www.google.com",
+            "type": "url",
+            "url": "https://www.google.com/search?q=facebook&oq=face&aqs=chrome.0.69i59j69i57j69i60l3.2407j0j7&sourceid=chrome&ie=UTF-8"
+         } ],
+         "date_added": "13239016660661546",
+         "date_modified": "13239299848358504",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13239016660661553",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13239016660661554",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CrABCo8BCIiBAhKIARJ2CAISOAoGCgJibRABEDMaEgkAhnLSgqwFACEAhnLSgqwFADIYChYIAhFGhg/igqwFABgAIQAAAAAAAAAAEjgKBgoCYmQQABAzGhIJAIZy0oKsBQAhAIZy0oKsBQAyGAoWCAIRRoYP4oKsBQAYACEAAAAAAAAAACAASILcnL69LnDzpMmNti4SACABKhgvREFpMkwwTUxQNWF0NnBvc0FIVkpBPT0SvgEIAxK5AQoceTVXRTI3dUk2dlgvRGVJU0hKem5qTXF1V1dzPRJmWjpBRHF0QVp3S3ZZVzI3ZFQ2V0hFZGdkUitNb1ZIcFVDWVhmTDhISTg3dXpSZklqdUpzLzlZa0FQQmtZL2NJTWRzeUluWU1EMHRIMGFBdCszenpieWliTEZNYnVMUTBQVXhFZz09GAAgACgAMJeci9Kqx+oCOABAAEocNzlsK0xSRVVwaWFFdkREK0c0M2NwWFN0d0JjPVoAEqYBCAESoQEKHC9FS0xhVVV5TWRiS0VrMUJhMlVpbnlEbmY3ST0STlo6QURxdEFaeDJ5dFE1SEFpbDBYYm1tZ1VFeGdXWG9vb1BEK295L2tIQjJjTE1EbWdBbXFlQ05mUjIraHREYStYL2pYTnhKS1hxU1grMBgAIAAoADCXnIvSqsfqAjgAQABKHFUrR0dJdFpFRHBac0lTbE9VYUlUdUlMZE1uST1aABKnAggIEqICChxqeDdvcDN1TnJZWk9wdGt3Ym5tVVcwMjJrRFU9EqYBWjpBRHF0QVp4YStiNE0raDRZOVdMaXp6a3ByMUJ4OVF3WTdZeWVCbm1XNUxDRXdDODJULzhZSnpTQzZFMFFqY2ZZd1REZUd6bTU3M0JUY1JXb09EWFY4bE5tOXRUYWdkVEFlUjlVd083Yk5DOThCOGFERGJpTmE0YUtaZHRjdGVlYnlHY1dnWkVlM05NSVh6RHZ0MW9HdFl6UE11OGp4UzJmd0E9PRgAIAIoAjDEl/Wd4NbqAjioobWYtS5AsdSujrYuShw3ZWhyTktnWHI4WGVyNVo1azBkeXA4N3Z1N2s9Wh4iHFkxY2htem5vM3FDTU9zZG15cHg2c3lMdFVpRT0SpwIIBRKiAgocSFN5TXo5d2k3emprMFlGQzJRbkRWZlRkcGZFPRKmAVo6QURxdEFaeGErYjRNK2g0WTlXTGl6emtwcjFCeFRTTjFkb1hYem4vQmVoSUlVVHZDM21Ca0hwVm15QVFRc2NJZ1VjOXNqcDlsSlNvbXN0Qy93RGQ2UHpNSXlrR2hhSEhmaXBoSm4wT3NXRlpoc1BlR2tQdXU2RDdWak05OXFJVVRxb1p1SS95bzg3bkJLaDlwL0NBK3d0cWptZ0plY3k0YThRPT0YACADKAMw15uPkaWQ6wI44Zmx1IouQMCbib29LkoccXI1OU02dS95aERvWlBmQ2h2NzB3czNBUVVNPVoeIhw4UGMyMVVOam1uM3B2all0aUZkcnVjL2E0UGM9EqcCCAYSogIKHDJETHA0dEJldm81WEk0eEdwOUpBTEZKcnQ5TT0SpgFaOkFEcXRBWnhhK2I0TStoNFk5V0xpenprcHIxQnhUU04xZG9YWHpuL0JlaElJVVR2QzNzN2tvcytST3UxS21kZHRkdHVkUTRuclNvR0ErbGVoRmpqVWZSN3F3dmtrUVBqY1ljTW1RTU92eDNyRUZBekhZbVA5cjAza01aTDFMMjZ0VUx0UXpMT3dtRWhQZHhoNVFJcldtcnpuMUJ4bnMvUjJPZz09GAAgAigCMIfrsNOqx+oCOJOVkM+yLkCext+RtC5KHGRIVzM5cm5HQnR1NnN3SlVFWksxN0t0TFB2az1aHiIcOXh0akJFYlBtMkx6dm5Ea2ZEQ0VFQUk3Nm9JPRK+AQgCErkBChx6RFZHcnJ0WkxkTSs0QlR5YmcrSENPcldneW89EmZaOkFEcXRBWnlZOE5SZmovK0FQeTV3QVVwYi9vTW5CcFh5aDlHdUpUZGl4b01jNHh3ZFZ4RE9xakJGMkp6d2loSDRUTWdRemNYaHI0SG5DcWZvUXE4REVtNm56Y01odEJUTW13PT0YACAAKAAwl5yL0qrH6gI4AEAAShw1dXN5L2NwZnBpMUV0b0JIRGdYSXMwcWI0ckE9WgAYAA==",
+   "version": 1
+}

@@ -1,0 +1,15 @@
+2020/07/24-14:08:41.992 98ba Reusing MANIFEST /home/praveen/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/24-14:08:41.992 98ba Recovering log #15
+2020/07/24-14:08:42.002 98ba Reusing old log /home/praveen/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000015.log 
+2020/07/24-14:11:36.777 9959 Level-0 table #20: started
+2020/07/24-14:11:36.863 9959 Level-0 table #20: 399154 bytes OK
+2020/07/24-14:11:36.900 9959 Delete type=0 #15
+2020/07/24-14:11:36.900 9959 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/24-14:11:36.901 9959 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 38879 : 1
+2020/07/24-14:11:36.901 9959 Compacting 1@1 + 1@2 files
+2020/07/24-14:11:36.963 9959 Generated table #21@1: 1840 keys, 103877 bytes
+2020/07/24-14:11:36.963 9959 Compacted 1@1 + 1@2 files => 103877 bytes
+2020/07/24-14:11:36.998 9959 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/24-14:11:36.999 9959 Delete type=2 #17
+2020/07/24-14:11:36.999 9959 Delete type=2 #20
+2020/07/24-14:11:37.005 9959 Manual compaction at level-1 from '\x00\x04\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 38879 : 1 .. (end); will stop at (end)

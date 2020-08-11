@@ -1,0 +1,22 @@
+file:///home/praveen/multiple-number/even/even.js {"mtime":1596432546106,"ctime":1596430392999,"size":640,"etag":"35fpcck9hkk","orphaned":false}
+function even() {
+    let input = document.getElementById("evenNumber").value;
+    input = parseInt(input);
+    let container = document.getElementById("container")
+    let counter = 100;
+    let table =document.createElement("table")
+    for (i = 2; i <= 100; i++) {
+        let result = (input % i);
+        console.log(input, i, result)
+        let row = table.insertRow();
+        let td = document.createElement("td");
+
+        let textResult = input + "%" + i + "=" + result;
+        let text = document.createTextNode(textResult);
+
+        td.appendChild(text)
+        row.appendChild(td);
+
+    }
+    container.appendChild(table);
+}
