@@ -4,6 +4,9 @@ import IncrementDecrement from './component/IncrementDecrement';
 import Increment2X from "./component/Increment2X";
 import Sum from "./component/Sum";
 import Calculator from "./component/Calculator";
+import DataTable from "./component/company/DataTable";
+
+
 
 function App() {
 
@@ -18,6 +21,9 @@ function App() {
       <Sum/>
       <hr/>
       <Calculator/>
+      <hr/>
+      <DataTable/>
+
     </>
   );
 }
